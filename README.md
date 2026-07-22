@@ -2,7 +2,7 @@
 
 A modern social media mobile application built with **React Native**, **Expo**, and **TypeScript**.
 
-Connectify is a frontend-focused social networking application developed as a semester project. It demonstrates modern mobile UI design, reusable components, navigation, responsive layouts, and simulated social media functionality.
+Connectify is a frontend-focused social networking application. It demonstrates modern mobile UI design, reusable components, navigation, responsive layouts, and simulated social media functionality.
 
 ---
 
