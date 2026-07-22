@@ -196,6 +196,36 @@ This project demonstrates:
 
 ---
 
+## 📷 Application Preview
+
+### Splash Screen
+
+![Splash](screenshots/splash.png)
+
+### Login Screen
+
+![Login](screenshots/login.png)
+
+### Signup Screen
+
+![Signup](screenshots/signup.png)
+
+### Home Feed
+
+![Home](screenshots/home.png)
+
+### Search
+
+![Search](screenshots/search.png)
+
+### Create Post
+
+![Create](screenshots/create-post.png)
+
+### Profile
+
+![Profile](screenshots/profile.png)
+
 ## 👨‍💻 Developer
 
 **Muhammad Ahsan**
