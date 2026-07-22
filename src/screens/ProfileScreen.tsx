@@ -23,9 +23,11 @@ export default function ProfileScreen() {
         showsVerticalScrollIndicator={false}
         ListHeaderComponent={
           <View style={styles.profileSection}>
-            <View style={styles.avatar}>
-              <Text style={styles.avatarText}>A</Text>
-            </View>
+            <Image
+               source={{
+                 uri: "https://randomuser.me/api/portraits/men/32.jpg",
+                }}
+               style={styles.avatar}/>
 
             <Text style={styles.name}>Ahsan</Text>
 

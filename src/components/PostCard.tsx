@@ -13,7 +13,12 @@ export default function PostCard({ post }: any) {
     <View style={styles.card}>
 
       <View style={styles.header}>
-        <View style={styles.avatar} />
+        <Image
+          source={{
+           uri: "https://randomuser.me/api/portraits/men/32.jpg",
+         }}
+  style={styles.avatar}
+/>
 
         <View>
           <Text style={styles.name}>

@@ -6,6 +6,7 @@ import {
   FlatList,
   StyleSheet,
   TouchableOpacity,
+  Image,
 } from "react-native";
 
 import Colors from "../constants/colors";
@@ -25,7 +26,7 @@ export default function SearchScreen() {
 
       <TextInput
         placeholder="Search friends..."
-        placeholderTextColor="#999"
+        placeholderTextColor="#888"
         style={styles.input}
         value={query}
         onChangeText={setQuery}
@@ -34,19 +35,17 @@ export default function SearchScreen() {
       <FlatList
         data={filteredUsers}
         keyExtractor={(item) => item.id.toString()}
+        showsVerticalScrollIndicator={false}
         renderItem={({ item }) => (
           <View style={styles.card}>
-            <View style={styles.avatar}>
-              <Text style={styles.avatarText}>
-                {item.username.charAt(0)}
-              </Text>
-            </View>
+            <Image
+              source={{ uri: item.avatar }}
+              style={styles.avatar}
+            />
 
-            <View style={{ flex: 1 }}>
+            <View style={styles.info}>
               <Text style={styles.name}>{item.username}</Text>
-              <Text style={styles.bio}>
-                Active Connectify User
-              </Text>
+              <Text style={styles.bio}>{item.bio}</Text>
             </View>
 
             <TouchableOpacity style={styles.followBtn}>
@@ -71,6 +70,7 @@ const styles = StyleSheet.create({
     padding: 15,
     borderRadius: 15,
     color: "white",
+    fontSize: 16,
   },
 
   card: {
@@ -80,45 +80,45 @@ const styles = StyleSheet.create({
     marginHorizontal: 15,
     marginBottom: 12,
     padding: 15,
-    borderRadius: 15,
+    borderRadius: 18,
+    elevation: 3,
   },
 
   avatar: {
-    width: 55,
-    height: 55,
-    borderRadius: 28,
-    backgroundColor: Colors.primary,
-    justifyContent: "center",
-    alignItems: "center",
-    marginRight: 12,
+    width: 58,
+    height: 58,
+    borderRadius: 29,
+    borderWidth: 2,
+    borderColor: Colors.primary,
   },
 
-  avatarText: {
-    color: "white",
-    fontSize: 20,
-    fontWeight: "bold",
+  info: {
+    flex: 1,
+    marginLeft: 15,
   },
 
   name: {
     color: "white",
-    fontWeight: "bold",
-    fontSize: 16,
+    fontWeight: "700",
+    fontSize: 17,
   },
 
   bio: {
     color: Colors.gray,
-    marginTop: 2,
+    marginTop: 3,
+    fontSize: 13,
   },
 
   followBtn: {
     backgroundColor: Colors.primary,
-    paddingHorizontal: 15,
-    paddingVertical: 8,
-    borderRadius: 10,
+    paddingHorizontal: 18,
+    paddingVertical: 9,
+    borderRadius: 12,
   },
 
   followText: {
     color: "white",
     fontWeight: "bold",
+    fontSize: 14,
   },
 });

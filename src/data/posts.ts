@@ -2,6 +2,8 @@ export const posts = [
   {
     id: 1,
     username: "Ahsan",
+    bio: "React Native Developer",
+    avatar: "https://randomuser.me/api/portraits/men/32.jpg",
     title: "Working on Connectify",
     body: "Spent the day improving the UI and navigation of my React Native project.",
     image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800",
@@ -12,6 +14,8 @@ export const posts = [
   {
     id: 2,
     username: "Abubakar",
+    bio: "Software Engineer",
+    avatar: "https://randomuser.me/api/portraits/men/75.jpg",
     title: "Morning Coffee",
     body: "Starting the day with coffee and planning my goals.",
     image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800",
@@ -22,6 +26,8 @@ export const posts = [
   {
     id: 3,
     username: "Ali",
+    bio: "UI/UX Designer",
+    avatar: "https://randomuser.me/api/portraits/men/67.jpg",
     title: "Learning React Native",
     body: "Successfully implemented navigation and reusable components.",
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800",
@@ -32,6 +38,8 @@ export const posts = [
   {
     id: 4,
     username: "Fatima",
+    bio: "Travel Blogger",
+    avatar: "https://randomuser.me/api/portraits/women/44.jpg",
     title: "Travel Memories",
     body: "Exploring beautiful places and creating unforgettable memories.",
     image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800",
@@ -42,6 +50,8 @@ export const posts = [
   {
     id: 5,
     username: "Usman",
+    bio: "Fitness Enthusiast",
+    avatar: "https://randomuser.me/api/portraits/men/41.jpg",
     title: "Fitness Journey",
     body: "Completed today's workout and feeling stronger than ever.",
     image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800",
@@ -52,6 +62,8 @@ export const posts = [
   {
     id: 6,
     username: "Hamza",
+    bio: "AI Enthusiast",
+    avatar: "https://randomuser.me/api/portraits/men/91.jpg",
     title: "Technology Trends",
     body: "Artificial Intelligence is transforming software development.",
     image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800",
@@ -62,6 +74,8 @@ export const posts = [
   {
     id: 7,
     username: "Zain",
+    bio: "Photographer",
+    avatar: "https://randomuser.me/api/portraits/men/55.jpg",
     title: "Sunset Views",
     body: "Beautiful evening with a breathtaking sunset.",
     image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800",
@@ -72,6 +86,8 @@ export const posts = [
   {
     id: 8,
     username: "Hina",
+    bio: "Content Creator",
+    avatar: "https://randomuser.me/api/portraits/women/72.jpg",
     title: "Friends Meetup",
     body: "Spent quality time with friends this weekend.",
     image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800",
