@@ -200,31 +200,31 @@ This project demonstrates:
 
 ### Splash Screen
 
-![Splash](screenshots/SplashScreen.png)
+![Splash](screenshots/SplashScreen.jpg)
 
 ### Login Screen
 
-![Login](screenshots/LoginScreen.png)
+![Login](screenshots/LoginScreen.jpg)
 
 ### Signup Screen
 
-![Signup](screenshots/SignupScreen.png)
+![Signup](screenshots/SignupScreen.jpg)
 
 ### Home Feed
 
-![Home](screenshots/HomeScreen.png)
+![Home](screenshots/HomeScreen.jpg)
 
 ### Search
 
-![Search](screenshots/SearchScreen.png)
+![Search](screenshots/SearchScreen.jpg)
 
 ### Create Post
 
-![Create](screenshots/CreateScreen.png)
+![Create](screenshots/CreateScreen.jpg)
 
 ### Profile
 
-![Profile](screenshots/ProfileScreen.png)
+![Profile](screenshots/ProfileScreen.jpg)
 
 ## 👨‍💻 Developer
 
